@@ -1,0 +1,41 @@
+.container {
+  border: 2px solid white;
+  margin: 109px 36px;
+  padding: 27px 18px;
+  width: 33%;
+  border-radius: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+.form-group input {
+  text-align: center;
+  display: block;
+  width: 300px;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 8px auto;
+  font-size: 15px;
+  border-radius: 10px;
+  font-family: "Antonio", sans-serif;
+}
+.container h2 {
+  text-align: center;
+}
+#submit-btn {
+  display: block;
+  margin: 23px;
+  margin: auto;
+}
+.tag {
+  box-sizing: border-box;
+  float: right;
+  width: 32%;
+  /* border: 2px solid white; */
+  margin: 115px 35px;
+  padding: 0px 20px;
+}
+.tag p,
+h2 {
+  margin: 0px;
+  text-align: center;
+}

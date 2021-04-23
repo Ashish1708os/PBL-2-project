@@ -1,0 +1,50 @@
+.container {
+  /* border: 2px solid red; */
+  margin: 55px 30px;
+  padding: 5px 10px;
+}
+.heading {
+  box-sizing: border-box;
+  display: inline-block;
+  float: none;
+  /* border: 2px solid red; */
+  margin: 15px 515px;
+  padding: 4px 5px;
+  line-height: 0px;
+}
+.heading h1 {
+  text-align: center;
+  /* text-decoration: underline; */
+}
+.box {
+  border: 2px solid white;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 45%;
+  margin: 15px 30px;
+  border-radius: 25px;
+  padding: 10px 15px;
+}
+.container h1 {
+  text-align: center;
+}
+.box summary {
+  text-align: center;
+  font-size: 20px;
+}
+#first img {
+  width: 300px;
+  margin: 10px 120px;
+}
+#second img {
+  width: 137px;
+  margin: 8px 196px;
+}
+#third img {
+  width: 200px;
+  margin: 10px 170px;
+}
+#fourth img {
+  width: 125px;
+  margin: 10px 200px;
+}

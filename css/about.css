@@ -1,0 +1,26 @@
+.heading {
+  box-sizing: border-box;
+  display: inline-block;
+  float: none;
+  /* border: 2px solid red; */
+  margin: 15px 581px;
+  padding: 4px 5px;
+  line-height: 0px;
+}
+.heading h1 {
+  text-align: center;
+  /* text-decoration: underline; */
+}
+.box {
+  /* border: 2px solid white; */
+  margin: 60px auto;
+}
+.para {
+  /* border: 2px solid green; */
+  margin: 15px 75px;
+  padding: 10px 25px;
+}
+.para p {
+  line-height: 24px;
+  font-size: large;
+}

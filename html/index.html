@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Fitness</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background: url("/img/pexels-pikx-by-panther-1547248.jpg");
+        background-size: cover;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- left box for logo -->
+      <div class="left">
+        <img src="/img/gym logo.jpg" alt="logo" />
+        <p>New Fitness Club</p>
+      </div>
+
+      <!-- mid box for nav bar -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html" class="active">About us</a></li>
+          <li><a href="review.html" class="active">Fitness review</a></li>
+          <li>
+            <a
+              href="https://www.amazon.in/Gym-Equipment/s?k=Gym+Equipment"
+              target="_blank"
+              >Shop</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- right box for button -->
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email us</button>
+      </div>
+    </header>
+
+    <div class="container">
+      <h2>Register NOW</h2>
+      <form action="backend.php" method="get">
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" placeholder="Enter your Email" />
+        </div>
+        <div class="form-group">
+          <input
+            type="number"
+            name="phone"
+            placeholder="Enter your phone number"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            type="textarea"
+            name="address"
+            placeholder="Enter your address"
+          />
+        </div>
+        <div class="form-group">
+          <input type="number" name="age" placeholder="Enter your Age" />
+        </div>
+        <div class="form-group">
+          <input type="text" name="gender" placeholder="Enter your Gender" />
+        </div>
+        <button class="btn" id="submit-btn">submit</button>
+      </form>
+    </div>
+
+    <div class="tag">
+      <p style="font-size: 30px">GET READY TO</p>
+      <h2 style="font-size: 50px">BURN</h2>
+    </div>
+  </body>
+</html>
