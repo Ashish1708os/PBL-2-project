@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>New Fitness</title>
-    <link rel="stylesheet" href="/css/style.css" />
+    <title>Feedback form</title>
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -12,10 +12,33 @@
       rel="stylesheet"
     />
     <style>
-      body {
-        background: url("/img/pexels-pikx-by-panther-1547248.jpg");
-        background-size: cover;
-        color: white;
+      .container {
+        border: 2px solid white;
+        margin: 109px 480px;
+        padding: 27px 18px;
+        width: 33%;
+        border-radius: 20px;
+        box-sizing: border-box;
+        float: left;
+      }
+      .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 8px auto;
+        font-size: 15px;
+        border-radius: 10px;
+        font-family: "Antonio", sans-serif;
+      }
+      #submit-btn {
+        display: block;
+        margin: 23px;
+        margin: auto;
+      }
+      .container h2 {
+        text-align: center;
       }
     </style>
   </head>
@@ -52,15 +75,14 @@
         <button class="btn">Email us</button>
       </div> -->
     </header>
-
     <div class="container">
-      <h2>Register NOW</h2>
-      <form method="get">
-        <div class="form-group" id="reg">
+      <h2>Feedback Form</h2>
+      <form action="" class="feedback">
+        <div class="form-group">
           <input
             type="text"
-            id="fname"
             name="name"
+            id="name"
             placeholder="Enter your name"
           />
         </div>
@@ -74,43 +96,24 @@
         </div>
         <div class="form-group">
           <input
-            type="number"
-            name="phone"
-            id="phone"
-            placeholder="Enter your phone number"
-          />
-        </div>
-        <div class="form-group">
-          <input
             type="textarea"
-            name="address"
-            id="address"
-            placeholder="Enter your address"
+            name="commnet"
+            id="commnet"
+            placeholder="commnet your feedback"
           />
         </div>
         <div class="form-group">
           <input
             type="number"
-            id="age"
-            name="age"
-            placeholder="Enter your Age"
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="text"
-            id="gender"
-            name="gender"
-            placeholder="Enter your Gender"
+            id="rating"
+            name="rating"
+            min="1"
+            max="10"
+            placeholder="Enter your rating (1-10)"
           />
         </div>
         <button class="btn" id="submit-btn">submit</button>
       </form>
-    </div>
-
-    <div class="tag">
-      <p style="font-size: 30px">GET READY TO</p>
-      <h2 style="font-size: 50px">BURN</h2>
     </div>
   </body>
 </html>
